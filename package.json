@@ -1,9 +1,9 @@
 {
   "name": "Destek",
   "version": "0.0.1",
-  "main": "bot.js",
+  "main": "destek.js",
   "scripts": {
-    "test": "node bot.js"
+    "test": "node destek.js"
   },
   "author": "Fırat OZDEN",
   "license": "ISC",
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "bot.js"
+    "url": "destek.js"
   },
   "description": ""
 }
