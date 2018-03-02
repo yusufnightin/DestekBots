@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 
 client.on("ready", guild => {
-    client.user.setPresence({ game: { name: `RO-BOT Destek | 7/24 Aktif`, type: 0 } });
+    client.user.setPresence({ game: { name: `7/24 Destek Sistemi | Aktif`, type: 0 } });
 	client.user.setStatus("idle");
 });
 client.on('message', msg => {
@@ -17,7 +17,7 @@ client.on('message', msg => {
   }
    if (msg.content.toLowerCase() === 'destek') {
    if(!msg.guild) return
-    msg.reply('**Merhaba! Size nasıl yardımcı olabilirim? ``destek 1-5\n  _**Bot komudu uygulamıyor**_\n   ``1``\n\n  _**Bot çok yavaş**_\n   ``2``\n\n _**Bot komutları cevap vermiyor**_\n   ``3``\n\n _**Bot komudu kullanmama izin vermiyor**_\n   ``4``\n\n _**Canlı destek**_\n   ``5``');
+    msg.reply('**Merhaba! Size nasıl yardımcı olabilirim?** ``destek 1-5``\n  _**Bot komudu uygulamıyor**_\n   ``1``\n\n  _**Bot çok yavaş**_\n   ``2``\n\n _**Bot komutları cevap vermiyor**_\n   ``3``\n\n _**Bot komudu kullanmama izin vermiyor**_\n   ``4``\n\n _**Canlı destek**_\n   ``5``');
   }
    if (msg.content.toLowerCase() === 'destek 1') {
 	       if(!msg.guild) return
