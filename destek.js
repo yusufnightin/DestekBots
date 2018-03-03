@@ -7,6 +7,14 @@ client.on("ready", guild => {
 	client.user.setStatus("idle");
 });
 client.on('message', msg => {
+   if(msg.content === desteks'){
+    let embed = new Discord.RichEmbed()
+    .setAuthor(msg.author.username, msg.author.avatarURL)
+    .setTitle('Tek Komut (Şuanlık):')
+    .setDescription('$yardım')
+    .setColor(3447003)
+    return msg.channel.send({embed})}
+  });
    if (msg.content.toLowerCase() === 'gecikme') {
 	       if(!msg.guild) return msg.reply(`**Sizlere ${client.ping} mili saniye de hizmet veriyorum.**`);
     msg.channel.send(`**Sizlere ${client.ping} mili saniye de hizmet veriyorum.**`);
