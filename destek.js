@@ -2,12 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 
-client.on("ready", guild => {
-    client.user.setPresence({ game: { name: `7/24 Destek Sistemi | Aktif`, type: 0 } });
-	client.user.setStatus("idle");
-});
-client.on('message', msg => {
-   if(msg.content === desteks'){
+if(msg.content === prefix + 'yardım'){
     let embed = new Discord.RichEmbed()
     .setAuthor(msg.author.username, msg.author.avatarURL)
     .setTitle('Tek Komut (Şuanlık):')
@@ -15,6 +10,12 @@ client.on('message', msg => {
     .setColor(3447003)
     return msg.channel.send({embed})}
   });
+
+client.on("ready", guild => {
+    client.user.setPresence({ game: { name: `7/24 Destek Sistemi | Aktif`, type: 0 } });
+	client.user.setStatus("idle");
+});
+client.on('message', msg => {
    if (msg.content.toLowerCase() === 'gecikme') {
 	       if(!msg.guild) return msg.reply(`**Sizlere ${client.ping} mili saniye de hizmet veriyorum.**`);
     msg.channel.send(`**Sizlere ${client.ping} mili saniye de hizmet veriyorum.**`);
