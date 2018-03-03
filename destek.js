@@ -2,15 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 
-if(msg.content === 'yardım'){
-    let embed = new Discord.RichEmbed()
-    .setAuthor(msg.author.username, msg.author.avatarURL)
-    .setTitle('Tek Komut (Şuanlık):')
-    .setDescription('$yardım')
-    .setColor(3447003)
-    return msg.channel.send({embed})}
-  });
-
 client.on("ready", guild => {
     client.user.setPresence({ game: { name: `7/24 Destek Sistemi | Aktif`, type: 0 } });
 	client.user.setStatus("idle");
