@@ -40,6 +40,7 @@ client.on('message', msg => {
     msg.channel.send('Canlı destek çağırıyorum...');
 	msg.channel.send('<@309359939523182594> yardımına istiyacımız var!');
 	msg.channel.send('<@368450660036771850> yardımına istiyacımız var!');
+	msg.channel.send('<@372433105723850763> yardımına istiyacımız var!');
   }
 });
 
