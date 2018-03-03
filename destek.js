@@ -17,7 +17,7 @@ client.on('message', msg => {
   }
    if (msg.content.toLowerCase() === 'destek') {
    if(!msg.guild) return
-    msg.reply('**Merhaba! Size nasıl yardımcı olabilirim?** ``destek 1-5``\n  _**Bot komudu uygulamıyor**_\n   ``1``\n\n  _**Bot çok yavaş**_\n   ``2``\n\n _**Bot komutları cevap vermiyor**_\n   ``3``\n\n _**Bot komudu kullanmama izin vermiyor**_\n   ``4``\n\n _**Canlı destek**_\n   ``5``');
+    msg.reply('**Merhaba! Size nasıl yardımcı olabilirim?** ``destek 1-5``\n  _**Bot komudu uygulamıyor**_\n   ``1``\n\n  _**Bot çok yavaş**_\n   ``2``\n\n _**Bot komutları cevap vermiyor**_\n   ``3``\n\n _**Bot komudu kullanmama izin vermiyor**_\n   ``4``\n\n _**Canlı destek**_\n   ``5``\n\n© Fırat#6846, Kaan#1234 | Tüm Hakları Saklıdır');
   }
    if (msg.content.toLowerCase() === 'destek 1') {
 	       if(!msg.guild) return
