@@ -42,7 +42,6 @@ client.on('message', msg => {
 	msg.channel.send('<@368450660036771850> yardımına ihtiyacımız var!');
 	msg.channel.send('<@372433105723850763> yardımına ihtiyacımız var!');
 	msg.channel.send('<@352836400003022849> yardımına ihtiyacımız var!');
-	msg.channel.send('<@372433105723850763> yardımına ihtiyacımız var!');
   }
 });
 
