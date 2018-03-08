@@ -41,6 +41,7 @@ client.on('message', msg => {
 	msg.channel.send('<@309359939523182594> yardımına ihtiyacımız var!');
 	msg.channel.send('<@368450660036771850> yardımına ihtiyacımız var!');
 	msg.channel.send('<@372433105723850763> yardımına ihtiyacımız var!');
+   }
 });
 
 client.login(process.env.BOT_TOKEN);
