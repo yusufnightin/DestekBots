@@ -38,9 +38,10 @@ client.on('message', msg => {
    if (msg.content.toLowerCase() === 'destek 5') {
 	       if(!msg.guild) return
     msg.channel.send('Canlı destek çağırıyorum...');
-	msg.channel.send('<@309359939523182594> ${msg.author.username} adlı kişi yardım istiyor!');
-	msg.channel.send('<@368450660036771850> ${msg.author.username} adlı kişi yardım istiyor!');
-	msg.channel.send('<@372433105723850763> ${msg.author.username} adlı kişi yardım istiyor!');
+	msg.channel.send(`<@309359939523182594> ${msg.author.username} adlı kişi yardım istiyor!`);
+	msg.channel.send(`<@368450660036771850> ${msg.author.username} adlı kişi yardım istiyor!`);
+	msg.channel.send(`<@372433105723850763> ${msg.author.username} adlı kişi yardım istiyor!`);
+	msg.channel.send(`<@352836400003022849> ${msg.author.username} adlı kişi yardım istiyor!`);
    }
 });
 
