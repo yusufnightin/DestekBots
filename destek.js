@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 
 client.on("ready", guild => {
-    client.user.setPresence({ game: { name: `Sizi`, type: 3 } });
+    client.user.setPresence({ game: { name: `Sizi`, type: 2 } });
 	client.user.setStatus("idle");
 });
 client.on('message', msg => {
