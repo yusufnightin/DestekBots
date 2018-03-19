@@ -4,7 +4,6 @@ const ayarlar = require('./ayarlar.json');
 
 client.on("ready", guild => {
     client.user.setPresence({ game: { name: `7/24 Destek Sistemi | Aktif`, type: 0 } });
-	client.user.setStatus("idle");
 });
 client.on('message', msg => {
    if (msg.content.toLowerCase() === 'gecikme') {
