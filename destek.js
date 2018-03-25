@@ -8,12 +8,12 @@ client.on("ready", guild => {
 client.on('message', msg => {
    if (msg.content.toLowerCase() === 'gecikme') {
 	       if(!msg.guild) return
-		   if(msg.guild) return
+    client.channels.get("!419213694577410061") return
     client.channels.get("419213694577410061").sendMessage(`**Sizlere ${client.ping} mili saniye de hizmet veriyorum.**`);
   }
    if (msg.content.toLowerCase() === 'ping') {
 	       if(!msg.guild) return
-		   if(msg.guild) return
+    client.channels.get("!419213694577410061") return
     client.channels.get("419213694577410061").sendMessage(`**Sizlere ${client.ping} mili saniye de hizmet veriyorum.**`);
   }
    if (msg.content.toLowerCase() === 'destek') {
