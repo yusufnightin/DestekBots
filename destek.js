@@ -36,7 +36,7 @@ client.on('message', msg => {
   }
    if (msg.content.toLowerCase() === 'destek 5') {
 	       if(!msg.guild) return
-    client.channels.get("429279371019157524").sendMessage(`@here **|**\n**${msg.author.tag} adlı kişi, #${msg.channel.name} kanalında operatorlerden yardım istiyor**`);
+    client.channels.get("429282840736169985").sendMessage(`@here **|**\n**${msg.author.tag} adlı kişi, #${msg.channel.name} kanalında operatorlerden yardım istiyor**`);
     msg.channel.send('Operatorlere bildirim gönderdim!');
    }
 });
