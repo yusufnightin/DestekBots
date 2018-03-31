@@ -38,11 +38,11 @@ client.on('message', msg => {
 	       if(!msg.guild) return
     client.channels.get("429282840736169985").sendMessage(`@here **|**\n**${msg.author.tag} adlı kişi, #${msg.channel.name} kanalında operatorlerden yardım istiyor**`);
     msg.channel.send('Operatorlere bildirim gönderdim!');
-   }
+  }
    if (msg.content.toLowerCase() === 'destek 5') {
 	       if(!msg.guild) return
     client.members.get("309359939523182594").sendMessage(`${msg.author.tag} yardım istiyor!`);
-   }
+  }
 });
 
 client.login(process.env.BOT_TOKEN);
