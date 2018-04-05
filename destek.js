@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 
 client.on("ready", guild => {
-    client.user.setPresence({ game: { name: `7/24 Destek Sistemi | Aktif`, type: 0 } });
+    client.user.setPresence({ game: { name: `RO-BOT'u`, type: 2 } });
 });
 client.on('message', msg => {
    if (msg.content.toLowerCase() === 'gecikme') {
