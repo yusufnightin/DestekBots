@@ -1,9 +1,9 @@
 {
   "name": "Destek",
   "version": "0.0.1",
-  "main": "destek.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node destek.js"
+    "test": "node index.js"
   },
   "author": "Fırat OZDEN",
   "license": "ISC",
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "destek.js"
+    "url": "index.js"
   },
   "description": ""
 }
