@@ -1,1 +1,1 @@
-worker: node destek.js
+worker: node index.js
